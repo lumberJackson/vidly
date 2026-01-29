@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jacksonforster/source/repos/vidly/vidly/vidly.csproj": {}
+    "/Users/jacksonforster/Documents/GitHub/vidly/vidly/vidly.csproj": {}
   },
   "projects": {
-    "/Users/jacksonforster/source/repos/vidly/vidly/vidly.csproj": {
+    "/Users/jacksonforster/Documents/GitHub/vidly/vidly/vidly.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jacksonforster/source/repos/vidly/vidly/vidly.csproj",
+        "projectUniqueName": "/Users/jacksonforster/Documents/GitHub/vidly/vidly/vidly.csproj",
         "projectName": "vidly",
-        "projectPath": "/Users/jacksonforster/source/repos/vidly/vidly/vidly.csproj",
+        "projectPath": "/Users/jacksonforster/Documents/GitHub/vidly/vidly/vidly.csproj",
         "packagesPath": "/Users/jacksonforster/.nuget/packages/",
-        "outputPath": "/Users/jacksonforster/source/repos/vidly/vidly/obj/",
+        "outputPath": "/Users/jacksonforster/Documents/GitHub/vidly/vidly/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/jacksonforster/.nuget/NuGet/NuGet.Config"
