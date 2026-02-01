@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "XwUc1s+v6tI=",
+  "dgSpecHash": "0gxSkr4KFFo=",
   "success": true,
   "projectFilePath": "/Users/jacksonforster/Documents/GitHub/vidly/vidly/vidly.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/jacksonforster/.nuget/packages/artnalgo.net.cachecraft/1.0.0/artnalgo.net.cachecraft.1.0.0.nupkg.sha512",
+    "/Users/jacksonforster/.nuget/packages/artnalgo.net.jsobfuscator.core/1.1.3/artnalgo.net.jsobfuscator.core.1.1.3.nupkg.sha512",
+    "/Users/jacksonforster/.nuget/packages/esprima/3.0.4/esprima.3.0.4.nupkg.sha512",
+    "/Users/jacksonforster/.nuget/packages/jint/3.0.1/jint.3.0.1.nupkg.sha512",
+    "/Users/jacksonforster/.nuget/packages/ligershark.weboptimizer.core/3.0.405/ligershark.weboptimizer.core.3.0.405.nupkg.sha512",
+    "/Users/jacksonforster/.nuget/packages/nuglify/1.20.7/nuglify.1.20.7.nupkg.sha512",
+    "/Users/jacksonforster/.nuget/packages/weboptimizer.jsobfuscator/1.1.5/weboptimizer.jsobfuscator.1.1.5.nupkg.sha512"
+  ],
   "logs": []
 }

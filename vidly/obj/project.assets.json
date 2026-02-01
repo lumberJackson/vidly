@@ -1,11 +1,235 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "Artnalgo.NET.CacheCraft/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Artnalgo.NET.CacheCraft.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Artnalgo.NET.CacheCraft.dll": {}
+        }
+      },
+      "Artnalgo.NET.JSObfuscator.Core/1.1.3": {
+        "type": "package",
+        "dependencies": {
+          "Jint": "3.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.1/Artnalgo.NET.JSObfuscator.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Artnalgo.NET.JSObfuscator.Core.dll": {}
+        }
+      },
+      "Esprima/3.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Esprima.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Esprima.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Jint/3.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Esprima": "3.0.4"
+        },
+        "compile": {
+          "lib/net8.0/Jint.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Jint.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "LigerShark.WebOptimizer.Core/3.0.405": {
+        "type": "package",
+        "dependencies": {
+          "NUglify": "1.20.7"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/WebOptimizer.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/WebOptimizer.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ],
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "NUglify/1.20.7": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/NUglify.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/NUglify.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "WebOptimizer.JSObfuscator/1.1.5": {
+        "type": "package",
+        "dependencies": {
+          "Artnalgo.NET.CacheCraft": "1.0.0",
+          "Artnalgo.NET.JSObfuscator.Core": "1.1.3",
+          "LigerShark.WebOptimizer.Core": "3.0.405"
+        },
+        "compile": {
+          "lib/net6.0/WebOptimizer.JSObfuscator.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/WebOptimizer.JSObfuscator.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Artnalgo.NET.CacheCraft/1.0.0": {
+      "sha512": "cIt6bZBxrC3T1e719VySCiBJqdsmtM/T1Ty/blYjxzbOfs4IOA1RWMxc6pypL6noya3wQjHJM9nyB5+6X2PwRA==",
+      "type": "package",
+      "path": "artnalgo.net.cachecraft/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "artnalgo.net.cachecraft.1.0.0.nupkg.sha512",
+        "artnalgo.net.cachecraft.nuspec",
+        "lib/net6.0/Artnalgo.NET.CacheCraft.dll",
+        "logo.png"
+      ]
+    },
+    "Artnalgo.NET.JSObfuscator.Core/1.1.3": {
+      "sha512": "CDxw/h4MPltJqyLArj1679WEpUNb16SiIAFwk3h1UgzgnnGjV1J37IgjygdaXKx7PaZL8x40R1CHnUBs8EK4pA==",
+      "type": "package",
+      "path": "artnalgo.net.jsobfuscator.core/1.1.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "artnalgo.net.jsobfuscator.core.1.1.3.nupkg.sha512",
+        "artnalgo.net.jsobfuscator.core.nuspec",
+        "lib/netstandard2.1/Artnalgo.NET.JSObfuscator.Core.dll",
+        "logo.png"
+      ]
+    },
+    "Esprima/3.0.4": {
+      "sha512": "AIK0TpWPL/IvMX7tGq7CT486N8IG2XXtpZJYedJ+mjutUAFYRZaQjalaN7xiaV++cTMGyhc5bfK7Z8+qMfjh0w==",
+      "type": "package",
+      "path": "esprima/3.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "esprima.3.0.4.nupkg.sha512",
+        "esprima.nuspec",
+        "lib/net462/Esprima.dll",
+        "lib/net462/Esprima.xml",
+        "lib/netstandard2.0/Esprima.dll",
+        "lib/netstandard2.0/Esprima.xml",
+        "lib/netstandard2.1/Esprima.dll",
+        "lib/netstandard2.1/Esprima.xml"
+      ]
+    },
+    "Jint/3.0.1": {
+      "sha512": "X/aIRNWP1aDDt4Gw5yNNIp1qUMTaJIBNAMANCSWAoJtN1OSlLTkr0NuCjc7nLPx6TKwxybl4Rs1Tgd5va7yNrw==",
+      "type": "package",
+      "path": "jint/3.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "jint.3.0.1.nupkg.sha512",
+        "jint.nuspec",
+        "lib/net462/Jint.dll",
+        "lib/net462/Jint.xml",
+        "lib/net6.0/Jint.dll",
+        "lib/net6.0/Jint.xml",
+        "lib/net8.0/Jint.dll",
+        "lib/net8.0/Jint.xml",
+        "lib/netstandard2.0/Jint.dll",
+        "lib/netstandard2.0/Jint.xml",
+        "lib/netstandard2.1/Jint.dll",
+        "lib/netstandard2.1/Jint.xml"
+      ]
+    },
+    "LigerShark.WebOptimizer.Core/3.0.405": {
+      "sha512": "bsEO/TVYWsUwc/dAYjpEKBP+Dax1ikyehj8P2QMKDc/iKdi5/Wjljl13ab/D2RCiU4T7E560iOo06K2rCTNHAQ==",
+      "type": "package",
+      "path": "ligershark.weboptimizer.core/3.0.405",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/LigerShark.WebOptimizer.Core.props",
+        "build/LigerShark.WebOptimizer.Core.targets",
+        "lib/netcoreapp3.0/WebOptimizer.Core.dll",
+        "lib/netcoreapp3.0/WebOptimizer.Core.xml",
+        "ligershark.weboptimizer.core.3.0.405.nupkg.sha512",
+        "ligershark.weboptimizer.core.nuspec",
+        "logo.png"
+      ]
+    },
+    "NUglify/1.20.7": {
+      "sha512": "yTbDciM8xsVL5ezTsJtWUlyTbVq3KBEFlYaO1E0VXwnn1KjbjEuH6oU8WzyGVLOUUg4KxWQxAdriO9piveodNw==",
+      "type": "package",
+      "path": "nuglify/1.20.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/NUglify.dll",
+        "lib/net35/NUglify.xml",
+        "lib/net40/NUglify.dll",
+        "lib/net40/NUglify.xml",
+        "lib/net5.0/NUglify.dll",
+        "lib/net5.0/NUglify.xml",
+        "lib/netstandard1.3/NUglify.dll",
+        "lib/netstandard1.3/NUglify.xml",
+        "lib/netstandard2.0/NUglify.dll",
+        "lib/netstandard2.0/NUglify.xml",
+        "nuglify.1.20.7.nupkg.sha512",
+        "nuglify.nuspec",
+        "nuglify.png"
+      ]
+    },
+    "WebOptimizer.JSObfuscator/1.1.5": {
+      "sha512": "iELdarb4UD/NlBu7WfHe1Ga6RwlGJpCj/BpQm8tyCQcpIQgOXKeCZzMQxAOPB1D41Fr6bojgqKsAuib7q12Unw==",
+      "type": "package",
+      "path": "weboptimizer.jsobfuscator/1.1.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/WebOptimizer.JSObfuscator.dll",
+        "logo.png",
+        "weboptimizer.jsobfuscator.1.1.5.nupkg.sha512",
+        "weboptimizer.jsobfuscator.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "WebOptimizer.JSObfuscator >= 1.1.5"
+    ]
   },
   "packageFolders": {
     "/Users/jacksonforster/.nuget/packages/": {}
@@ -49,6 +273,12 @@
     "frameworks": {
       "net10.0": {
         "targetAlias": "net10.0",
+        "dependencies": {
+          "WebOptimizer.JSObfuscator": {
+            "target": "Package",
+            "version": "[1.1.5, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
