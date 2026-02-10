@@ -22,4 +22,9 @@ public class MovieController : Controller
         if (string.IsNullOrEmpty(sortby)) sortby = "name";
         return Content(string.Format("PageIndex: {0}, SortBy: {1}", pageIndex, sortby));
     }
+    [Route("Movie/ByReleaseDate/{year:regex(^\\d{{4}}$)}")]
+    public IActionResult ByReleaseDate(int year)
+    {
+        return Content("year: " + year);
+    }
 }

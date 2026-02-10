@@ -20,6 +20,15 @@ app.UseAuthorization();
 
 app.MapStaticAssets();
 
+// app.MapControllerRoute(
+//     name: "MoviesByReleaseDate",
+//     pattern: "{controller=Movie}/{action=byReleaseDate}/{year}/{id?}",
+//     constraints: new { year = @"\d{4}" });
+app.MapControllers();
+
+
+
+
 app.MapControllerRoute(
         name: "default",
         pattern: "{controller=Home}/{action=Index}/{id?}")
