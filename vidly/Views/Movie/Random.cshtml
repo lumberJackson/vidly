@@ -5,7 +5,22 @@
     Layout = "_Layout";
 }
 
-<h2>@Model.movie.Name</h2>
-@Model.customers
-});
+@{ var className = Model.customers.Count > 0 ? "popular movie!" : null;}
+<h2 class = "@className">@Model.movie.Name </h2>
+@if (Model.customers.Count == 0)
+{
+    <p>No customers found</p>
+}
+else
+{
+    <ul>
+    @foreach (var cust in Model.customers)
+    {
+        <li>@cust.Name</li>
+    }
+    </ul>
+}
+
+
+
 @* // how to render list of customers?  *@
